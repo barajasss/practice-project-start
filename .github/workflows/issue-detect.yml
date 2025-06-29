@@ -1,0 +1,8 @@
+name: Issue management
+on: issues
+jobs:
+  process-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Issue created data:"
+        run: echo "${{ toJSON(github) }}"
