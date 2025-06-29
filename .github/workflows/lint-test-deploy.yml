@@ -19,4 +19,4 @@ jobs:
       - name: Build code
         run: npm run build
       - name: Deploy code
-        run: Code deployment in process...
+        run: echo "Code deployment in process..."
